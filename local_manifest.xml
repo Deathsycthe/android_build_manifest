@@ -11,8 +11,11 @@
             clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="hub" revision="main" />
+ <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="hub" revision="Evolution-X" />
  <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="lab" revision="main" />
  <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
+
+  <!-- Clang -->
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="lab" revision="master" clone-depth="1" />
 
 </manifest>
