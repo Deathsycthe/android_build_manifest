@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+ <!-- Remotes -->
+    <remote name="hub"
+            fetch="https://github.com/dogpoopy/"
+            clone-depth="1" />
+
+    <remote name="lab"
+            fetch="https://gitlab.com/dogpoopy/"
+            clone-depth="1" />
+
+ <!-- Trees -->
+ <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="hub" revision="main" />
+ <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="lab" revision="main" />
+ <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
+
+</manifest>
