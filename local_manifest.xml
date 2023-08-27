@@ -11,7 +11,7 @@
             clone-depth="1" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vayu" name="android_device_xiaomi_vayu" remote="hub" revision="Evolution-X" />
+ <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="hub" revision="Evolution-X" />
  <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_vayu" remote="lab" revision="main" />
  <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
 
