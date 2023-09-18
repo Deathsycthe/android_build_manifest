@@ -13,7 +13,7 @@
  <!-- Trees -->
  <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="hub" revision="Evolution-X" />
  <project path="vendor/xiaomi/vayu" name="android_vendor_xiaomi_vayu" remote="hub" revision="main" />
- <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
+ <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="main" />
  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera-vayu" remote="lab" revision="main" />
  
   <!-- Clang -->
