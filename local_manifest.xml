@@ -9,6 +9,10 @@
  <remote name="lab"
          fetch="https://gitlab.com/dogpoopy/"
          clone-depth="1" />
+ 
+ <remote name="peblobs"
+         fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/"
+         clone-depth="1" />
 
  <!-- Trees -->
  <project path="device/xiaomi/vayu"
@@ -31,6 +35,11 @@
           remote="lab"
           revision="main" />
  
+ <project path="vendor/qcom/common"
+          name="vendor_qcom_common"
+          remote="peblobs"
+          revision="thirteen" />
+
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
           name="clang-r498229b"
