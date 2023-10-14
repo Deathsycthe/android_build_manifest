@@ -2,21 +2,62 @@
 <manifest>
 
  <!-- Remotes -->
-    <remote name="hub"
-            fetch="https://github.com/dogpoopy/"
-            clone-depth="1" />
+ <remote name="hub"
+         fetch="https://github.com/dogpoopy/"
+         clone-depth="1" />
 
-    <remote name="lab"
-            fetch="https://gitlab.com/dogpoopy/"
-            clone-depth="1" />
+ <remote name="lab"
+         fetch="https://gitlab.com/dogpoopy/"
+         clone-depth="1" />
+ 
+ <remote name="peblobs"
+         fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/"
+         clone-depth="1" />
+ 
+ <!-- Replace -->
+ <remove-project name="packages_resources_devicesettings" />
+ <project path="packages/resources/devicesettings" name="Evolution-X/packages_resources_devicesettings" remote="github" revision="tiramisu" />
 
  <!-- Trees -->
- <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="hub" revision="PE" />
- <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi_vayu" remote="lab" revision="main" />
- <project path="hardware/xiaomi" name="PixelExperience/hardware_xiaomi" remote="github" revision="thirteen" />
- <project path="kernel/xiaomi/vayu" name="dogpoopy/android_kernel_xiaomi_vayu" remote="github" revision="thirteen" />
+ <project path="device/xiaomi/vayu"
+          name="device_xiaomi_vayu"
+          remote="hub"
+          revision="PE-again" />
+ 
+ <project path="vendor/xiaomi/vayu"
+          name="android_vendor_xiaomi_vayu"
+          remote="hub"
+          revision="main" />
+ 
+ <project path="kernel/xiaomi/vayu"
+          name="dogpoopy/android_kernel_xiaomi_vayu"
+          remote="github"
+          revision="main" />
+ 
+ <project path="vendor/xiaomi/miuicamera"
+          name="vendor_xiaomi_miuicamera-vayu"
+          remote="lab"
+          revision="main" />
+ 
+ <project path="vendor/qcom/common"
+          name="vendor_qcom_common"
+          remote="peblobs"
+          revision="thirteen" />
+
+ <project path="hardware/xiaomi"
+          name="Evolution-X/hardware_xiaomi"
+          remote="github"
+          revision="tiramisu" />
+
+ <project path="device/qcom/common"
+          name="PixelExperience-Devices/device_qcom_common"
+          revision="thirteen"
+          remote="github" />
 
   <!-- Clang -->
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="lab" revision="master" clone-depth="1" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
+          name="clang-r498229b"
+          remote="lab"
+          revision="13.0" />
 
 </manifest>
