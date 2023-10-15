@@ -14,15 +14,11 @@
          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/"
          clone-depth="1" />
  
- <!-- Replace -->
- <remove-project name="packages_resources_devicesettings" />
- <project path="packages/resources/devicesettings" name="Evolution-X/packages_resources_devicesettings" remote="github" revision="tiramisu" />
-
  <!-- Trees -->
  <project path="device/xiaomi/vayu"
           name="device_xiaomi_vayu"
           remote="hub"
-          revision="PE-again" />
+          revision="PE" />
  
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
@@ -45,9 +41,9 @@
           revision="thirteen" />
 
  <project path="hardware/xiaomi"
-          name="Evolution-X/hardware_xiaomi"
+          name="PixelExperience/hardware_xiaomi"
           remote="github"
-          revision="tiramisu" />
+          revision="thirteen" />
 
  <project path="device/qcom/common"
           name="PixelExperience-Devices/device_qcom_common"
