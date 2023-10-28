@@ -18,7 +18,7 @@
  <project path="device/xiaomi/vayu"
           name="device_xiaomi_vayu"
           remote="hub"
-          revision="Evolution-X" />
+          revision="Evolution-X-udc" />
  
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
