@@ -10,20 +10,16 @@
          fetch="https://gitlab.com/dogpoopy/"
          clone-depth="1" />
  
- <remote name="peblobs"
-         fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/"
-         clone-depth="1" />
- 
  <!-- Trees -->
  <project path="device/xiaomi/vayu"
           name="android_device_xiaomi_vayu"
           remote="hub"
-          revision="wip-pe" />
+          revision="PE-libperfmgr" />
  
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
           remote="hub"
-          revision="wip-pe" />
+          revision="main-libperfmgr" />
  
  <project path="kernel/xiaomi/vayu"
           name="dogpoopy/android_kernel_xiaomi_vayu"
@@ -35,20 +31,10 @@
           remote="lab"
           revision="main" />
  
- <project path="vendor/qcom/common"
-          name="vendor_qcom_common"
-          remote="peblobs"
-          revision="thirteen" />
-
  <project path="hardware/xiaomi"
           name="PixelExperience/hardware_xiaomi"
           remote="github"
           revision="thirteen" />
-
- <project path="device/qcom/common"
-          name="PixelExperience-Devices/device_qcom_common"
-          revision="thirteen"
-          remote="github" />
 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
