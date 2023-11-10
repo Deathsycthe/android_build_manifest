@@ -14,12 +14,12 @@
  <project path="device/xiaomi/vayu"
           name="android_device_xiaomi_vayu"
           remote="hub"
-          revision="PE-libperfmgr" />
+          revision="wip-pe" />
  
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
           remote="hub"
-          revision="main-libperfmgr" />
+          revision="wip-pe" />
  
  <project path="kernel/xiaomi/vayu"
           name="dogpoopy/android_kernel_xiaomi_vayu"
