@@ -30,9 +30,6 @@
           name="vendor_xiaomi_miuicamera-vayu"
           remote="lab"
           revision="main" />
-
- <remove-project name="android_hardware_qcom_audio" />
- <project path="hardware/qcom-caf/sm8150/audio" name="DerpFest-AOSP/hardware_qcom_audio" groups="qcom,msmnile" revision="14-caf-sm8150" remote="github" />
  
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
