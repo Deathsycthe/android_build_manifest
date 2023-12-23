@@ -32,9 +32,8 @@
           revision="main" />
  
  <project path="hardware/xiaomi"
-          name="PixelExperience/hardware_xiaomi"
-          remote="github"
-          revision="thirteen" />
+          name="hardware_xiaomi"
+          remote="pixel" />
 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
