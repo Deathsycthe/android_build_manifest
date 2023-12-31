@@ -19,7 +19,7 @@
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
           remote="hub"
-          revision="14" />
+          revision="main" />
  
  <project path="kernel/xiaomi/vayu"
           name="dogpoopy/android_kernel_xiaomi_vayu"
@@ -36,10 +36,5 @@
           name="clang-r498229b"
           remote="lab"
           revision="13.0" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-          name="clang-r450784d"
-          remote="lab"
-          revision="master" />
 
 </manifest>
