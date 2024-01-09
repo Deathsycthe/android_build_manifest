@@ -32,19 +32,20 @@
           revision="main" />
 
  <project path="hardware/xiaomi"
-          name="LineageOS/android_hardware_xiaomi"
-          remote="github"
+          name="android_hardware_xiaomi"
+          remote="hub"
           revision="lineage-20" />
+
+ <remove-project name="android_frameworks_av" />
+ <project path="frameworks/av"
+          name="android_frameworks_av"
+          remote="hub"
+          revision="arrow-13.1" />
 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
           name="clang-r498229b"
           remote="lab"
           revision="13.0" />
-
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" 
-          name="clang-r450784d"
-          remote="lab"
-          revision="master" />
 
 </manifest>
