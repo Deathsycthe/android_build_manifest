@@ -30,10 +30,11 @@
           name="vendor_xiaomi_miuicamera-vayu"
           remote="lab"
           revision="main" />
- 
+
  <project path="hardware/xiaomi"
-          name="hardware_xiaomi"
-          remote="pixel" />
+          name="android_hardware_xiaomi"
+          revision="lineage-20"
+          remote="hub" />
 
  <remove-project name="frameworks_av" />
  <remove-project name="device_qcom_sepolicy_vndr" />
