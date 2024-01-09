@@ -34,7 +34,7 @@
  <project path="hardware/xiaomi"
           name="android_hardware_xiaomi"
           remote="hub"
-          revision="lineage-20" />
+          revision="arrow-13.1" />
 
  <remove-project name="android_packages_resources_devicesettings" />
  <project path="packages/resources/devicesettings"
