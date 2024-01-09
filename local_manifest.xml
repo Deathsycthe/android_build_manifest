@@ -36,6 +36,12 @@
           remote="hub"
           revision="lineage-20" />
 
+ <remove-project name="android_packages_resources_devicesettings" />
+ <project path="packages/resources/devicesettings"
+          name="Evolution-X/packages_resources_devicesettings"
+          remote="github"
+          revision="udc" />
+
  <remove-project name="android_frameworks_av" />
  <project path="frameworks/av"
           name="android_frameworks_av"
