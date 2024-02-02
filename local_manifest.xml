@@ -26,9 +26,9 @@
           remote="github"
           revision="main" />
  
- <project path="vendor/xiaomi/miuicamera"
-          name="vendor_xiaomi_miuicamera-vayu"
-          remote="lab"
+ <project path="vendor/xiaomi/vayu-miuicamera"
+          name="vendor_xiaomi_vayu-miuicamera"
+          remote="hub"
           revision="main" />
 
  <project path="hardware/xiaomi"
