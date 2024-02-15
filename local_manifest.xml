@@ -19,7 +19,7 @@
  <project path="vendor/xiaomi/vayu"
           name="android_vendor_xiaomi_vayu"
           remote="hub"
-          revision="main" />
+          revision="dolbyA13" />
  
  <project path="kernel/xiaomi/vayu"
           name="dogpoopy/android_kernel_xiaomi_vayu"
