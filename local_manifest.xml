@@ -47,7 +47,13 @@
           name="android_frameworks_av"
           remote="hub"
           revision="arrow-13.1" />
-
+ 
+ <remove-project name="platform/external/libcxx" />  
+ <project path="external/libcxx"
+          name="LineageOS/android_external_libcxx"
+          remote="github"
+          revision="lineage-20.0"/>
+ 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
           name="clang-r498229b"
