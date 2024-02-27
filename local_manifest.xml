@@ -47,6 +47,12 @@
           name="android_frameworks_av"
           remote="hub"
           revision="arrow-13.1" />
+
+ <remove-project name="android_frameworks_base" />
+ <project path="frameworks/base"
+          name="android_frameworks_base"
+          remote="hub"
+          revision="arrow-13.1" />
  
  <remove-project name="platform/external/libcxx" />  
  <project path="external/libcxx"
