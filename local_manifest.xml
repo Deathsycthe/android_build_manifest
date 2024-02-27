@@ -37,17 +37,11 @@
           remote="hub" />
 
  <remove-project name="frameworks_av" />
- <remove-project name="device_qcom_sepolicy_vndr" />
 
  <project path="frameworks/av"
           name="frameworks_av"
           remote="hub"
           revision="thirteen" /> 
-
- <project path="device/qcom/sepolicy_vndr"
-          name="device_qcom_sepolicy_vndr"
-          remote="hub"
-          revision="thirteen" />
 
   <!-- Clang -->
  <project path="prebuilts/clang/host/linux-x86/clang-r498229b"
